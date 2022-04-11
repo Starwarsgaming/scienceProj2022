@@ -7,22 +7,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
     <section class="header">
     <nav>
         <a href="index.html"><img src="images/logo.png"></a>    
-        <div class="nav-links">
-        <ul>
-        <li><a href="">Home</a> </li>   
-        <li><a href="">Coding</a> </li> 
-        <li><a href="">Process</a> </li> 
-        <li><a href="">Language</a> </li> 
-        <li><a href="">Us</a> </li> 
-        </ul>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a> </li>   
+                <li><a href="">Notes</a> </li> 
+                <li><a href="">Process</a> </li> 
+                <li><a href="">Language</a> </li> 
+                <li><a href="">Us</a> </li> 
+            </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
+        
+<div class="text-box">
+    <h1>We Shiddin</h1>
+    <p>I really have to shit right now. Like REALLY bad that KFC grease has absolutley destroyed th natural order of things inside of my stomach. I am fighting a war inside my stomach, my bowels have been lost to the destructive forces of KFC and the calamity that has been brought forth by their diabolical meals.</p>
+    <a href="" class="hero-btn">STOP THEM</a>
+</div>
+        
     </section>
+<!------JavaScript for Toggle Menu------>
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+        
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    </script>
     
       
 </body>
