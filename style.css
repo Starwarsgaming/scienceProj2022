@@ -180,7 +180,21 @@ p{
 
 .pictures{
     width: 100%;
-    margin: auto;
+    margin:auto;
     padding-top: 50px;
     text-align: center;
+     background: #34cdfe;
+}
+.Reasons{
+    flex-basis: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.Reasons img{
+    width: 80%;
+    border-radius: 10px;
+    
 }
