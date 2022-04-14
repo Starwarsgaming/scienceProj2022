@@ -125,7 +125,7 @@ nav .fa{
     background-color: #48d2fe;
     background-position: center;
     background-size: cover;
-    position: absolute;
+    position: relative;
     width:  100%;
     margin: auto;
     text-align: center;
@@ -174,4 +174,13 @@ p{
     .row{
         flex-direction: column;
     }
+}
+
+/*klankfakak*/
+
+.pictures{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
 }
