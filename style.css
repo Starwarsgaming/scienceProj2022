@@ -59,6 +59,7 @@ nav img{
     text-align: center;
 }
 .text-box h1{
+    color: #ffd700;
     font-size: 62px;
 }
 .text-box p{
@@ -115,5 +116,62 @@ nav .fa{
     }
     .nav-links ul{
         padding: 30px;
+    }
+}
+
+/*---- Why a website -----*/
+
+.Website{
+    background-color: #48d2fe;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width:  100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{ 
+    color: #ffcc5f;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+p{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.Reason h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 36px;
+}
+.Reason{
+    flex-basis: 31%;
+    border-radius: 10px;
+    border: 4px solid #ffd700;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background: #34cdfe;
+    transition: 0.5s;
+}
+.Reason:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
     }
 }
