@@ -284,13 +284,16 @@ p{
     margin: auto;
     padding-top: 80px;
     padding-bottom: 50px; 
+    text-align: center;
 }
 
-.notes-col h1{
-    text-align: center;
-    font-size: 60px;
-}
-
-.notes-col p{
-    text-align: center;
+.notes{
+     flex-basis: 31%;
+    border-radius: 10px;
+    border: 4px solid #ffd700;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background: #34cdfe;
+    transition: 0.5s;
 }
