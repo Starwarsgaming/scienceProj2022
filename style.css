@@ -166,7 +166,7 @@ p{
 .row{
     margin: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 .Reason h3{
     text-align: center;
@@ -190,7 +190,7 @@ p{
 }
 @media(max-width: 700px){
     .row{
-        flex-direction: column;
+        flex-direction:column;
     }
 }
 
@@ -296,12 +296,17 @@ p{
      width: 100%;
 }
 
+/*-------notes-------*/
+
 .Notes{
     width: 80%;
     margin: auto;
     padding-top: 80px;
     padding-bottom: 50px; 
     text-align: center;
+    background: #FFB6C1;
+    background-size: cover;
+    width: 100%;
 }
 
 .notes{
@@ -313,4 +318,10 @@ p{
     box-sizing: border-box;
     background: #34cdfe;
     transition: 0.5s;
+}
+
+.her-btn:hover{
+    border: 2px solid #000000;
+    transition: 1s;
+    color: #000000;
 }
