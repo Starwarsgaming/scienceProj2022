@@ -222,15 +222,23 @@ p{
 
 .about-col{
     flex-basis: 48%;
-    padding: 30px 2px;
+    padding: 30px 10px;
+    
 }
 
 .about-col img{
-    width:100%;
+    width: 80%;
 }
 .about-col h1{
     padding-top: 0;
+    
+    
 }
 .about-col p{
-    padding: 15px 0 25px;
+    padding: 100px 0px 20px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 50px;
+
+    
 }
