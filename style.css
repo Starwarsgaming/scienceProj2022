@@ -84,6 +84,23 @@ nav img{
     color: #000000;
     transition: 1s;
 }
+.her-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #ffd700;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.her-btn:hover{
+    border: 2px solid #ffd700;
+    background: #ffd700;
+    color: #000000;
+    transition: 1s;
+}
 
 nav .fa{
     display: none;
