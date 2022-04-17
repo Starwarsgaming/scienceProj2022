@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Science Project Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>    
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a> </li>   
+                <li><a href="">Notes</a> </li> 
+                <li><a href="">Process</a> </li> 
+                <li><a href="">Language</a> </li> 
+                <li><a href="">Us</a> </li> 
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+        
+<h1>Notes</h1>
+    </section>
+    
+<!------notes title----------->
+    
+    <section class="Notes">
+    
+            <div class="notes-col">
+                <h1>Notes Made</h1>
+                <p>These are the notes that we took of important terms and definitions that we learned while making this website.</p>
+            </div>
+       
+        <div class="row">
+        <div class="notes">
+            <h3>list_1</h3>
+            <p>this is where the list of the notes will go.</p>
+            </div>
+        <div class="notes">
+            <h3>list_2</h3>
+            <p>this is where the list of the notes will go.</p>
+            </div>    
+        <div class="notes">
+            <h3>list_3</h3>
+            <p>this is where the list of the notes will go.</p>
+            </div>                
+        </div>
+        
+        
+    </section>
+   
+
+    
+    
+    
+<!------JavaScript for Toggle Menu------>
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+        
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    </script>
+    
+      
+</body>
+</html>

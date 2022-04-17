@@ -239,6 +239,58 @@ p{
     font-size: 30px;
     font-weight: 300;
     line-height: 50px;
+}
 
-    
+/*___________languages_______*/
+
+
+.sub-header{
+     height:50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    color: #fff;
+}
+
+.Languages{
+     width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;    
+}
+
+.language-col h1{
+     padding-top: 0px;
+}
+.language-col{
+    flex-basis: 48%;
+    padding: 30px 10px;
+}
+
+.language-col p{
+     padding: 100px 0px 20px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.language-col img{
+     width: 100%;
+}
+
+.Notes{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px; 
+}
+
+.notes-col h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.notes-col p{
+    text-align: center;
 }
